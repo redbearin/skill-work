@@ -14,7 +14,7 @@ function twoSum(nums, target) {
   return indices;
 }
 
-const nums = [2, 7, 11, 15];
-const target = 13; 
+var nums = [2, 7, 11, 15];
+var target = 13; 
 twoSum(nums, target);
 
