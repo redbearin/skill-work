@@ -1,5 +1,6 @@
 function removeElement(array, val) {
-  return array.filter(element => element !==  val);
+  var newArray = array.filter(element => element !==  val);
+  return newArray.length;
 }
 
 array = [0,1,2,2,3,0,4,2];
