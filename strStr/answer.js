@@ -23,5 +23,5 @@ function strStr(haystack, needle) {
 
 
 var haystack = 'aaaaa';
-var needle = 'baa'
+var needle = 'baa';
 strStr(haystack, needle);
