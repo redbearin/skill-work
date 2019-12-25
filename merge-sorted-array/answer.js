@@ -1,5 +1,5 @@
 function merge (nums1, m, nums2, n) {
-  nums1ExtraRemoved =[];
+  var nums1ExtraRemoved =[];
   for(var nums1Index = 0; nums1Index < m; nums1Index++) {
     nums1ExtraRemoved.push(nums1[nums1Index]);
   }
