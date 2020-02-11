@@ -5,3 +5,5 @@ Output: "bacdfeg"
 Restrictions:
 The string consists of lower English letters only.
 Length of the given string and k will in the range [1, 10000]
+
+Note: changed variable names in complete solution to string (replaces s) and lengthSubstring (replaces k)
