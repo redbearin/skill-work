@@ -11,4 +11,6 @@ Example 2:
 Input: [1,2,3,4]
 Output: 24
 
-NOTE: solution allows numbers to be in the array in any order and for numbers of more than one digit
+NOTES: 
+1) answer.js allows numbers to be in the array in any order and for numbers of more than one digit
+2) answer2.js allows the user to change the number of numbers that will be part of the product.
