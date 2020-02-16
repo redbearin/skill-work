@@ -7,6 +7,6 @@ function maximumProduct(nums) {
   return product;
 };
 
-var nums = [10,9,4,5,3,2];
+var nums = [10,9,4,5,32,2];
 
 maximumProduct(nums);
