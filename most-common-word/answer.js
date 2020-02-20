@@ -6,13 +6,11 @@ function mostCommonWord(paragraph, banned) {
     word = word.toLowerCase();
     paragraph[index2] = word;
   }
-
-  console.log(paragraph)
-  var mostFrequent = null;
-  var mostCount = 0;
-  for (var index = 0; index < paragraph.length; index++) {
-    var count = 0;
-    for (var index1 = 0; index1 < paragraph.length; index1++) {
+  let mostFrequent = null;
+  let mostCount = 0;
+  for (let index = 0; index < paragraph.length; index++) {
+    let count = 0;
+    for (let index1 = 0; index1 < paragraph.length; index1++) {
       if (index === index1) continue;
       if (paragraph[index] === paragraph [index1]) {
         count++;
@@ -25,7 +23,7 @@ function mostCommonWord(paragraph, banned) {
   return mostFrequent;
 }
 
-var paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
-var banned = 'hit';
+const paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
+const banned = 'hit';
 
 mostCommonWord(paragraph, banned);
