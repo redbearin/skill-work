@@ -6,8 +6,6 @@ Call a group large if it has 3 or more characters.  We would like the starting a
 
 The final answer should be in lexicographic order.
 
- 
-
 Example 1:
 
 Input: "abbxxxxzzy"
@@ -22,4 +20,6 @@ Example 3:
 
 Input: "abcdddeeeeaabbbcd"
 Output: [[3,5],[6,9],[12,14]]
+
+Additional feature: read both capital and lowercase as the same letter
  
