@@ -8,7 +8,7 @@ for (var index = 0; index < sortedStringArray.length; index++) {
 }
 }
 
-var substring = "ac";
-var string = "ach";
+var substring = "acde";
+var string = "acdeh";
 
 findTheDifference(string, substring);
