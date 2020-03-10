@@ -35,7 +35,7 @@ function dayOfTheWeek(day, month, year) {
 }
 
 let day = 18; 
-let month = 7 
+let month = 7;
 let year = 1999;
 
 dayOfTheWeek(day, month, year);
