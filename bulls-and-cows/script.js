@@ -1,4 +1,4 @@
-const secret = '1723';
+const secret = '1123';
 
 function process() {
   const secretArr = secret.split('');
