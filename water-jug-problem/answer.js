@@ -3,8 +3,8 @@ function canMeasureWater(x, y, z) {
   else return false;
 }
 
-x = 3;
-y = 5; 
-z = 4;
+const x = 3;
+const y = 5; 
+const z = 4;
 
 canMeasureWater(x, y, z);
