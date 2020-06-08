@@ -1,4 +1,5 @@
-Changed to return all peaks.
+Answer returns all peaks.
+Answer1 returns one peak.
 
 A peak element is an element that is greater than its neighbors.
 
