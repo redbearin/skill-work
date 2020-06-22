@@ -3,15 +3,15 @@ Given a string and a string dictionary, find the longest string in the dictionar
 Example 1:
 Input:
 s = "abpcplea", d = ["ale","apple","monkey","plea"]
-
 Output: 
 "apple"
+
 Example 2:
 Input:
 s = "abpcplea", d = ["a","b","c"]
-
 Output: 
 "a"
+
 Note:
 All the strings in the input will only contain lower-case letters.
 The size of the dictionary won't exceed 1,000.
