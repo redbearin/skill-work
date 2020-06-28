@@ -18,7 +18,7 @@ const licenseKeyFormatting = (string, k) => {
   return newStringArray.join('').toUpperCase();
 }
 
-const string = "2-5g-3-J";
-const k = 2;
+const string = "5F3Z-2e-9-w";
+const k = 4;
 
 licenseKeyFormatting(string, k);
