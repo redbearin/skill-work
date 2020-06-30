@@ -21,7 +21,7 @@ const minStack = (operations, values) => {
       output.push(null);
     }
   }
-  console.log(output);
+  return output;
 }
 
 const operations = ["MinStack","push","push","push","getMin","pop","top","getMin"];
