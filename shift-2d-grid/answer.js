@@ -15,7 +15,7 @@ const shiftGrid = (grid, k) => {
       flatReorder[index + k - flatGrid.length] = flatGrid[index];
   }
 
-  for (let index = 0; index < flatReorder.length; index = index + subarrayLength) {
+  for (let index = 0; index < flatReorder.length; index = index + grid[0].length) {
     let string = '';
     // build each subarray
     for (let index1 = 0; index1 < grid[0].length; index1++) {
@@ -31,7 +31,7 @@ const shiftGrid = (grid, k) => {
   return finalWSubs;
 }
 
-const grid = [[3,8,1,9],[19,7,2,5],[4,6,11,10],[12,0,21,13]];
-const k = 4
+const grid = [[1,2,3],[4,5,6],[7,8,9]];
+const k = 1;
 
 shiftGrid(grid, k);
