@@ -13,3 +13,5 @@ const findNthDigit = (n) => {
 };
 
 const n = 14;
+
+findNthDigit(n);
