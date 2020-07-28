@@ -1,3 +1,4 @@
+nth-digit-2
 const findNthDigit = (n) => {
   const array = [];
   // build an subarrays of each number
@@ -12,5 +13,3 @@ const findNthDigit = (n) => {
 };
 
 const n = 14;
-
-findNthDigit(n);
