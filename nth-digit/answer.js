@@ -1,13 +1,15 @@
-function findNthDigit(n) {
-    var numberArray = [];
-    var number = 1;
-    while (numberArray.length < n + 1) {
-        numberArray.push(number);
-        var numberMerged = numberArray.join('');
-        numberArray = numberMerged.split('');
-        number++;
-    }
-    return numberArray[n - 1];
-}
-var n = 15;
-console.log(findNthDigit(n));
+nth-digit-2
+const findNthDigit = (n) => {
+  const array = [];
+  // build an subarrays of each number
+  // converted to a string
+  for (let index = 1; index < n + 1; index++) {
+    array.push(index.toString().split(''));
+  }
+  // remove subarrays
+  const flatArray = array.flat(1);
+  // find the nth str digit and convert to num
+  return parseInt(flatArray[n-1]);
+};
+
+const n = 14;
