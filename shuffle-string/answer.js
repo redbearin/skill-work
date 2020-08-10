@@ -1,10 +1,10 @@
 const restoreString = (s, indices) => {
-  let reordered = [];
+  const reordered = [];
   // cycle through each index in indices
   // get get the new index for that letter
   for (let index = 0; index < indices.length; index ++) {
-    // move the letter that that index to the
-    // reordered array
+    // move the letter at that index to the
+    // position referred in the indices array
     reordered[indices[index]] = s[index];
   }
   // join the array elements
