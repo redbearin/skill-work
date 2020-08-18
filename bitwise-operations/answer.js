@@ -1,13 +1,13 @@
 const bitwiseAND = (x, y) => {
-  return x & y;
+  return "Bitwise AND of " + x + " and " + y + " is " + (x & y) + '.';
 }
 
 const bitwiseOR = (x, y) => {
-  return x | y;
+  return "Bitwise OR of " + x + " and " + y + " is " + (x | y) + '.';
 }
 
 const bitwiseXOR = (x, y) => {
-  return x ^ y;
+  return "Bitwise XOR of " + x + " and " + y + " is " + (x ^ y) + '.';
 }
 
 const x = 7;
