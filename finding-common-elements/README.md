@@ -11,3 +11,6 @@ commonElements([1, 2, 3, 4, 5], [10, 12, 13, 15]) ➞ []
 
 Notes
 Arrays are Sorted!! Try doing this problem with O(n + m) time complexity
+
+answer.js -- solve with minimum lines
+answer1.js -- solve with minimum iterations and allow for match of more than one of same digit
