@@ -6,7 +6,6 @@ i != j
 0 <= i, j < arr.length
 arr[i] == 2 * arr[j]
  
-
 Example 1:
 Input: arr = [10,2,5,3]
 Output: true
@@ -21,4 +20,6 @@ Example 3:
 Input: arr = [3,1,7,11]
 Output: false
 Explanation: In this case does not exist N and M, such that N = 2 * M.
+
+answer1 -- another format for solution
  
