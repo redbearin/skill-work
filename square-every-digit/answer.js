@@ -4,7 +4,7 @@ const squareDigits = (num) => {
   for (let index = 0; index < strNum.length; index++) {
     sqrNum += Math.pow(+strNum[index], 2);
   }
-  return sqrNum;
+  return +sqrNum;
 }
 
 const num = 2483;
