@@ -37,4 +37,5 @@ multiplicativePersistence(4) ➞ 0
 // Because 4 is already a single-digit integer.
 
 Notes
-N/A
+additivePersistence - answer
+multiplicativePersistence - answer1
