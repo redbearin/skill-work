@@ -35,6 +35,6 @@ multiplicativePersistence(123456) ➞ 2
 
 multiplicativePersistence(4) ➞ 0
 // Because 4 is already a single-digit integer.
-Notes
 
+Notes
 N/A
