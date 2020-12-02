@@ -11,7 +11,7 @@ const pigLatinSentence = (phrase)=> {
       continue;
     }
     let begCons =  '';
-    for (let index1 =  0; index1 < arr.length; index1++) {
+    for (let index1 =  0; index1 < arr[index].length; index1++) {
       // is a vowel
       if (vowels.includes(arr[index][index1])) {
         // word after beginning consonants +
@@ -32,6 +32,6 @@ const pigLatinSentence = (phrase)=> {
   return final.join(' ');
 };
 
-const phrase = "this is pig latin";
+const phrase = "wall street journal";
 
 pigLatinSentence(phrase);
