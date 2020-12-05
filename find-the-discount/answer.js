@@ -1,5 +1,5 @@
 const discount = (num, disc) => {
-  return (num * disc * .01).toFixed(2);
+  return (num - (num * disc * .01)).toFixed(2);
 };
 
 const num = 1500;
