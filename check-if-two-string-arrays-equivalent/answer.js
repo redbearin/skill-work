@@ -1,5 +1,5 @@
 const arrayStringsAreEqual = (word1, word2) => {
-  if (word1.flat().join('') === word2.flat().join(''))
+  if (word1.join('') === word2.join(''))
     return true;
   return false;
 };
