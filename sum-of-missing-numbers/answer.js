@@ -1,20 +1,23 @@
-const sumMissingNumbers = (nums) => {
-  nums.sort((a,b) => a - b);
-  missingNums = [];
-  for (let index = 0; index < nums.length - 1; index++) {
-    // check gap between numbers
-    let difference = nums[index + 1] - nums[index];
-    // if a gap exists
-    if (difference > 1) {
-      // step by step for the size of the gap
-      for (let index1 = 1; index1 < difference; index1++) {
-        missingNums.push(nums[index] + index1);
-      }
-    }  
-  }
-  // sum the missing numbers
-  return missingNums.reduce((accumulator, element) => accumulator + element);
-}
 
-nums = [60, 50, 40, 30, 20, 10];
-sumMissingNumbers(nums);
+const sumMissingNumbers = (arr) => {
+  arr.sort((a,b) => a-b);
+  const fullArr = [];
+  let sumMissing = 0;
+  // buiid array of each number from first to last
+  for (let num = arr[0]; num <= arr[arr.length - 1]; num++) {
+    fullArr.push(num); 
+  }
+  // go through each number if full array
+  // if not in arr then add to the sum 
+  // of missing numbers
+  for(let index = 0; index < fullArr.length; index++) {
+    if(!arr.includes(fullArr[index])) 
+      sumMissing += fullArr[index];
+  }
+  return sumMissing;
+};
+
+const arr = [1, 2, 3, 4, 5];
+
+sumMissingNumbers(arr);
+

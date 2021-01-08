@@ -1,12 +1,16 @@
-Create a function that returns the sum of missing numbers.
 
-Examples:
-sumMissingNumbers([1, 3, 5, 7, 10]) ➞ 29
-// 2 + 4 + 6 + 8 + 9
+Create a function that returns the sum of missing numbers from the given array.
 
-sumMissingNumbers([10, 7, 5, 3, 1]) ➞ 29
+Examples
+sumMissingNumbers([4, 3, 8, 1, 2]) ➞ 18
+// 5 + 6 + 7 = 18
 
-sumMissingNumbers([10, 20, 30, 40, 50, 60]) ➞ 1575
+sumMissingNumbers([17, 16, 15, 10, 11, 12]) ➞ 27
+// 13 + 14 = 27
+
+sumMissingNumbers([1, 2, 3, 4, 5]) ➞ 0
+// No Missing Numbers (i.e. all numbers in [1, 5] are present in the list)
 
 Notes
-The minimum and maximum value of the given array are the inclusive bounds of the numeric range to consider when searching for missing numbers.
+The numerical range to consider when searching for the missing numbers in the array is the sequence of consecutive numbers between the minimum and maximum of the numbers (inclusive).
+
