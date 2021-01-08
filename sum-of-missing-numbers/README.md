@@ -1,3 +1,4 @@
+
 Create a function that returns the sum of missing numbers from the given array.
 
 Examples
@@ -12,3 +13,4 @@ sumMissingNumbers([1, 2, 3, 4, 5]) ➞ 0
 
 Notes
 The numerical range to consider when searching for the missing numbers in the array is the sequence of consecutive numbers between the minimum and maximum of the numbers (inclusive).
+

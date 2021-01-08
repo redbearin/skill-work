@@ -1,3 +1,4 @@
+
 const sumMissingNumbers = (arr) => {
   arr.sort((a,b) => a-b);
   const fullArr = [];
@@ -19,3 +20,4 @@ const sumMissingNumbers = (arr) => {
 const arr = [1, 2, 3, 4, 5];
 
 sumMissingNumbers(arr);
+
