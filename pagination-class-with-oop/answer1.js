@@ -24,7 +24,6 @@ class Pagination {
       this.arr.push(this.alphabetArray[index]);
     }
     this.currentIndex = end; 
-    console.log(this.currentIndex)
   }
   prevPage() {
     this.arr = [];
