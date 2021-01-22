@@ -1,4 +1,4 @@
-our task is to create a class to handle paginated content in a website. A pagination is used to divide long lists of content in a series of pages.
+Create a class to handle paginated content in a website. A pagination is used to divide long lists of content in a series of pages.
 
 Example
 
@@ -35,4 +35,4 @@ p.lastPage();
 console.log(p.getVisibleItems());
 // ["y", "z"]
 Notes
-Everything but going to a specific page and chaining handled.
+Everything, but chaining handled.
