@@ -33,12 +33,18 @@ parking_exit([
   [0, 0, 0, 1, 0],
   [0, 0, 0, 0, 0]
 ]) ➞ ["R3", "D2", "R1"]
-
 // Starting from 2, move to right 3 times = "R3"
 // Go down from stairs 2 steps = "D2"
 // Move to right 1 step to exit from right bottom corner = "R1"
+
 parking_exit([[0, 0, 0, 0, 2]]) ➞ []
 // You are already at right bottom corner.
+
+parking_exit([
+  [2, 0, 0, 0, 1],
+  [0, 0, 0, 0, 1],
+  [0, 0, 0, 0, 0]
+]) ➞ [ 'R4', 'D2' ]
 
 Notes
 Code still needs to be simplified and cleaned-up.
