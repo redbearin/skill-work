@@ -21,4 +21,4 @@ If the matrix is empty, return -1.
 First option: 
 The subarray with the high sum is always the last element in the array.
 Second option:
-The array with the highest sum can be anywhere in the array.
+The subarray with the highest sum can be anywhere in the array. This means the first subarray elements are added before the subarray that has the highest sum and the last subarray elements are addedd after the subarray with the highest sum.
