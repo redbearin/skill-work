@@ -1,0 +1,8 @@
+SELECT
+  a.Name AS 'Employee'
+FROM
+  Employees AS a,
+  Employees AS b
+WHERE
+  a.ManagerId = b.Id
+    AND a.Salary > b.Salary;
