@@ -28,7 +28,7 @@ const drange = (stop, start = 0, step = 1) => {
     else  
       final.push(current.toFixed(count));
   }
-  return final;
+  console.log(final);
 }
 
-document.getElementById('ans').innerHTML = drange(5.9, 1.2, 0.45);
+document.getElementById('ans').innerHTML = drange(7, 1, 1.2);
