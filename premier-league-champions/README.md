@@ -34,5 +34,33 @@ champions([
   ])
 ➞ "Manchester United"
 
+champions([
+    {
+      name: "Manchester City",
+      wins: 30,
+      loss: 8,
+      draws: 0,
+      scored: 67,
+      conceded: 20,
+    },
+    {
+      name: "Liverpool",
+      wins: 34,
+      loss: 2,
+      draws: 2,
+      scored: 118,
+      conceded: 29,
+    },
+    {
+      name: "Leicester City",
+      wins: 22,
+      loss: 8,
+      draws: 8,
+      scored: 98,
+      conceded: 29,
+    },
+  ]) 
+  ➞ "Liverpool"
+
 Notes
 Input is an array of teams.
