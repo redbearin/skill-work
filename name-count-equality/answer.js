@@ -9,7 +9,7 @@ const equalCount = (str, names) => {
 
   // initialize name
   let name = '';
-  
+
   // go character by character through str
   for (let i = 0; i < str.length; i++) {
     // a character
@@ -48,7 +48,7 @@ const equalCount = (str, names) => {
   console.log(details);
 }
 
-const str = "Tim!@#$Kit&&*#Tim!--@|#$Kit#$%Tim@|Kit$%^^Tim++Kit%$%^Tim++Kit#$#$#Tim@|Kit";
-const names = "Ken&Tom";
+const str = "Elliot!@#$Sam!--@|#$Elliot@|Sam++Elliot$%^Elliot@|Sam!@#Elliot!@#$Sam!--@|#$Elliot";
+const names = "Sam&Elliot";
 
 document.getElementById('ans').textContent = equalCount(str, names);

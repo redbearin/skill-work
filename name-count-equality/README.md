@@ -13,3 +13,5 @@ equalCount("Tim!@#$Kit&&*#Tim!--@|#$Kit#$%Tim@|Kit$%^^Tim++Kit%$%^Tim++Kit#$#$#T
 
 Notes
 Make sure to return the result as an object with the corresponding keys seen in the above examples and the difference key when needed.
+
+I used console.log rather than return due to Chrome interface.
