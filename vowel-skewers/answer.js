@@ -54,6 +54,6 @@ const isAuthenticSkewer = (str) => {
   return true;
 }
 
-const str = "C-L-A-P";
+const str = "B--A--N--A--N--A--S";
 
 document.getElementById('ans').textContent = isAuthenticSkewer(str);
