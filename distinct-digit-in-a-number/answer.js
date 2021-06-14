@@ -5,6 +5,6 @@ const numTest = (num) => {
   return true;
 }
 
-const num = "1025";
+const num = "112233";
 
 document.getElementById('ans').textContent = numTest(num);
