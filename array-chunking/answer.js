@@ -18,7 +18,6 @@ const chunk = (arr, subLen) => {
     // increment with the index
     i += subLen;
   }
-  console.log(final)
   return final;
 }
 

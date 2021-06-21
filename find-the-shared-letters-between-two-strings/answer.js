@@ -16,7 +16,6 @@ const sharedLetters = (word1, word2) => {
       word2Arr[index] = '*';
       matches.push(lowerLtr);
     }
-
   }
   // sort the letters in alpha order
   // then join into a string
